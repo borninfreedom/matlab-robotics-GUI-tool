@@ -19,13 +19,13 @@
 ## 安装方式
 * 1. 将MATLAB的当前工作文件夹切换到 RobotStudio 文件夹。
 * 2. 在命令行窗口中执行  
-*                       >> addpath common
-* 		                  >> startup_rvc
+*    >> addpath common
+* 	 >> startup_rvc
 * 3. 双击RobotStudio.m, 点击执行开始执行。
 
 # Installation introduction:
 * 1. Change the Matlab working space to the "RobotStudio";
 * 2. Command the following command lines:
-*                                        >> addpath common
-*                                        >> startup_rvc
+*    >> addpath common
+*    >> startup_rvc
 * 3. Double click the RobotStudio.m file to execute.
