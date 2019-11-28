@@ -1,0 +1,16 @@
+Citing the Toolbox:
+------------------
+
+If you use the Toolbox and want to cite it in a paper please use:
+
+@book{Corke17a,
+    Author = {Peter I. Corke},
+    Note = {ISBN 978-3-319-54413-7},
+    Edition = {Second},
+    Publisher = {Springer},
+    Title = {Robotics, Vision \& Control: Fundamental Algorithms in {MATLAB}},
+    Year = {2017}}
+
+P.I. Corke, Robotics, Vision \& Control: Fundamental Algorithms in MATLAB. Second edition. Springer, 2017. ISBN 978-3-319-54413-7.
+
+

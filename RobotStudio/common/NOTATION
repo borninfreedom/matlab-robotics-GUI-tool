@@ -1,0 +1,47 @@
+The Toolbox functions follow a number of conventions.
+
+For time series data such as a trajectory, rows correspond to increasing time.
+
+For position data, columns correspond to points.  The matrix has 2 rows for 2D data
+such as image coordinates, and 3 rows for homogeneous image plane data or 3D points,
+and 4 rows for homogeneous 3D data.
+
+For functions with a complex number of options the common function tb_optparse is
+used.  This allows a variable number of name/value argument pairs, and also supports
+simple enumeration, and loading of arguments from a structure rather than name/value
+pairs.  All functions that use tb_optparse support a verbose switch that prints more
+detail as the function executes.
+
+This version of the Toolbox makes use of many object classes, and particularly
+vectors of objects to represent things such as image feature points or lines.
+Often we wish to obtain a vector of scalar properties from the object vector, but 
+Matlab returns a comma separated list in this case.  We therefore adopt the convention
+of naming the object properties with a trailing underscore, and creating methods
+that return the property in vector form. For example, the method u() returns the
+value of the property u_.
+
+Most objects in the Toolboxes are derived from the handle class, which make it possible
+for methods to change the state of the object in a convenient way, that is, writing
+
+x.modify()
+
+rather than
+
+x = x.modify()
+
+This introduces danger because
+
+y = x;
+y.modify()
+
+will change both x and y.
+
+Most object constructors accept an object or object vector and return a copy
+
+y = Object(x);
+
+All objects have a char() and display() method which provides a succinct summary of 
+the object state.
+
+Imported packages live in the directory /private below the appropriate Toolbox or
+within a class directory.
