@@ -9,7 +9,14 @@
 ![](https://github.com/borninfreedom/matlab-robotics-GUI-tool/blob/master/RobotStudio/PrintScreen/%E9%87%8D%E5%8A%9B%E8%B4%9F%E8%BD%BD%E5%88%86%E6%9E%90.png)
 
 ![](https://github.com/borninfreedom/matlab-robotics-GUI-tool/blob/master/RobotStudio/PrintScreen/%E9%9B%85%E5%85%8B%E6%AF%94%E7%9F%A9%E9%98%B5.png)
-# 安装方式
+
+![](https://github.com/borninfreedom/matlab-robotics-GUI-tool/blob/master/RobotStudio/PrintScreen/%E9%80%9F%E5%BA%A6%E6%8E%A7%E5%88%B6.png)
+
+![](https://github.com/borninfreedom/matlab-robotics-GUI-tool/blob/master/RobotStudio/PrintScreen/%E4%BD%8D%E7%BD%AE%E6%8E%A7%E5%88%B6.png)
+
+![](https://github.com/borninfreedom/matlab-robotics-GUI-tool/blob/master/RobotStudio/PrintScreen/%E5%8A%9B%E7%9F%A9%E6%8E%A7%E5%88%B6.png)
+
+## 安装方式
 * 1. 将MATLAB的当前工作文件夹切换到 RobotStudio 文件夹。
 * 2. 在命令行窗口中执行  
 *                       >> addpath common
